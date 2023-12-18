@@ -24,7 +24,7 @@ repositories {
 
 dependencies {
     //region Spring
-    implementation 'org.springframework.boot:spring-boot-starter-actuator'
+    compile 'org.springframework.boot:spring-boot-starter-actuator'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     compile('org.springframework.boot:spring-boot-configuration-processor:2.2.1.RELEASE')
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.2.1.RELEASE'
